@@ -1,0 +1,24 @@
+*This is a planning document for code and logic programming foundation and design.
+
+## = Completed, or mostly completed
+@@@ = Working On, Currently in Progress
+___________________________________________________________________________________
+
+*What I will be doing, since Youtube does a "Streaming" sort of deal with Youtube videos now, if you try and download the source of the video, if either the uploader or Youtube themself set it, they can set a HTML attribute to not 
+allow a video source to be downloaded, so you are pretty much SOL in terms of finding an easy way to get the video, including the audio. So what I will be doing with this program is using Audacity to record the audio of a video I want
+so I will be having the video run and have Audacity recording the audio that is coming from said video and automatically stopping the recording when the audio for the video stops, then saving the audio file with a name (hopefully 
+similar to the video it was recorded from), then going to the next video in the play-list most likely and doing the same thing until it gets to the end. There will probably be little HTML interfacing, but I will still need some 
+ComObject use for the browser, as well as Audacity, however I plan on doing that. The browser I will be using this time is Brave (if possible), if not I will use Chrome or Firefox if needed. So I will need to figure out how to play 
+with those browsers different then IE.
+
+@@@-Main thing I should start reading up on and playing around with, how to get AutoHotKey to interface and manipulate the Audacity program, as well as how to make decisions based on Audio cues coming to the computer audio devices.
+
+-User inputs on a basic level should be pretty easy this program, I will probably just ask for a link to either a single video or an entire playlist and go off of that, possibly more if I want to, but not rushing to that.
+
+-I will possibly want the audio files to slightly have their audio levels increased or decreased, but this might be something that would be easier to just do manually in all honestly, but could be an interesting polish challenge.
+
+-Have the files be named something and saved to a specified directory, will try and make it the name of the video, most likely.
+
+-Challenge might be if a video stops audio almost instantly, then youtube Playlist automatically goes to next video and the program does not stop for that entire thing. So I will have to worry about that when I get there.
+
+-
